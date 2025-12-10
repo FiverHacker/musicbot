@@ -3,7 +3,7 @@ from discord.ext import commands
 import yt_dlp
 import asyncio
 
-TOKEN = "MTQwOTU1NzI1MTI2OTU5NTIzNg.GZyrLZ.P7apYFB_ch_RkmSMpGr6MRQInB-hGsLSoLf48Y"
+TOKEN = "ggg"
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -99,3 +99,4 @@ async def resume(ctx):
 
 
 bot.run(TOKEN)
+
